@@ -750,8 +750,8 @@ namespace Planet_Conquest
 
                              // Invading planet fleet
                              game.planets[attacker_planet_ID].CombatFrigate = sim.AttackFrig; 
-                             game.planets[attacker_planet_ID].CombatFrigate = sim.AttackBatt;
-                             game.planets[attacker_planet_ID].CombatFrigate = sim.AttackCapi;
+                             game.planets[attacker_planet_ID].BattleShip = sim.AttackBatt;
+                             game.planets[attacker_planet_ID].CapitalShip = sim.AttackCapi;
 
                             // Reset up-downs
                             ResetUpDowns();
